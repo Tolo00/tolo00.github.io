@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
+/* Custom styles */
+body {
+    background-image: url('images/BackgroundField.png'); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: rgb(228, 228, 228);
+    margin-bottom: 0;
+}
+
+.divider {
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.14);
+    margin: 0;
+}
+
+section {
+    padding: 60px 0 120px 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    margin-bottom: 0;
+}
+
+.bg-light {
+    background-color: rgba(255, 255, 255, 0.2) !important; /* Semi-transparent background */
+    color: black;
+}
+
+/* Project Preview */
+.project-container {
+    margin-bottom: 75px;
+}
+.project-type {
+    color: #787878;
+    margin-bottom: 0;
+}
+.project-name {
+
+}
+.project-desc {
+    margin-bottom: 30px;
+}
+.project-tags {
+
+}
+.project-container a {
+    color: rgb(0, 200, 0);
+}
+
+
+
+
+/* About */
+.me-picture {
+    border-radius: 90px;
+    padding-right: 20px;
+}
+
+
+/* Header */
+header {
+    background-color: #00000091; /* Semi-transparent background */
+    
+}
+
+.sticky-header {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure the header stays above other content */
+    background-color: #0d0d0d; /* Add a background color */
+    color: #fff; /* Text color */
+    padding: 10px 0;
+    text-align: center;
+}
+
+.header-container  {
+    margin-top: 0px;
+    font-size: 20px;
+}
+.header-name {
+    padding-top: 80px;
+    margin-bottom: 0px;
+    font-size: 40px;
+
+    font-family: "Roboto Serif", serif;
+    color: rgb(101, 255, 101);
+}
+.header-title {
+    padding-bottom: 40px;
+    margin-top: -10px;
+    margin-bottom: 0px;
+    font-size: 25px;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    margin-top: 0;
+    font-size: 1.15em;
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgb(15, 176, 15) !important; /* Change to your preferred hover color */
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+    .navbar-nav {
+        gap: 2.5rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-nav {
+        gap: 8rem;
+    }
+}
+
+/* Footer */
+.footer {
+    background-color: #00000091;
+    color: #787878;
+    text-align: center;
+    padding: 20px 0 5px 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Social icons styling */
+.social-icons {
+    margin-bottom: 0px;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: rgb(15, 176, 15); /* Change to your preferred hover color */
+}
+
+/* Footer text styling */
+.footer-text-1 {
+    font-size: 16px;
+    opacity: 1;
+    margin-bottom: 10px;
+}
+
+.footer-text-2 {
+    font-size: 12px;
+    opacity: 0.8;
+    margin-bottom: 0;
+}
