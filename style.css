@@ -1,6 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&display=swap');
 
 /* Custom styles */
+html {
+    
+}
+
 body {
     background-image: url('images/BackgroundField.png'); /* Replace with your background image */
     background-size: cover;
@@ -13,13 +17,20 @@ body {
     display: flex;
     flex-direction: column;
 
-    font-family: "Roboto Serif", serif;
-
+    font-family: "Iceberg", serif;
+    font-weight: 400;
+    font-size: 1.1em;
+    font-style: normal;
 }
 
 .divider {
     height: 2px;
     background-color: rgba(0, 0, 0, 0.14);
+    margin: 0;
+}
+.divider-between {
+    height: 2px;
+    background-color: rgba(164, 164, 164, 0.2);
     margin: 0;
 }
 
@@ -77,8 +88,13 @@ section {
 
 /* About */
 .me-picture {
-    border-radius: 90px;
-    padding-right: 20px;
+    border-radius: 10px;
+}
+
+@media (max-width: 767px) {
+    .me-picture {
+        padding: 0 100px 0 100px;
+    }
 }
 
 /* Contact */
@@ -124,7 +140,6 @@ header {
     margin-bottom: 0px;
     font-size: 40px;
 
-    font-family: "Roboto Serif", serif;
     color: rgb(101, 255, 101);
 }
 .header-title {
