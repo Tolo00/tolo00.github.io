@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Iceberg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* Custom styles */
 html {
@@ -17,9 +17,15 @@ body {
     display: flex;
     flex-direction: column;
 
-    font-family: "Iceberg", serif;
+    font-family: "Roboto", serif;
     font-weight: 400;
     font-size: 1.1em;
+    font-style: normal;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Iceberg", serif;
+    font-weight: 400;
     font-style: normal;
 }
 
@@ -47,22 +53,39 @@ section {
     color: black;
 }
 
-/* Project Preview */
-.project-container {
+/* Project */
+.project-preview-container {
     margin-bottom: 0px;
 }
-
-.project-container img {
+.project-preview-container img {
     border-radius: 0px;
+}
+
+.project-detail-container {
+
+}
+.project-detail-container b {
+    color: #edebac
+}
+.project-detail-container a {
+    text-decoration: none;
+}
+.project-detail-container a:hover {
+    text-decoration: underline;
+    color: #edebac;
 }
 
 .project-type {
     color: #787878;
     margin-bottom: 0;
+
+    font-family: "Iceberg", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .project-name {
-
+    
 }
 
 .project-desc {
@@ -70,31 +93,34 @@ section {
 }
 
 .project-tags {
-
+    font-size: 0.85em;
 }
 
-.project-container a {
-    color: rgb(0, 200, 0);
+.project-details-link {
+    color: #00c800;
+}
+
+.project-link {
+    color: #fff;
+    font-size: 32px;
+    margin: 5px 0 0 0;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.project-link:hover {
+    color: #0fb00f;
 }
 
 .project-divider {
     height: 2px;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: #ffffff33;
     margin: 40px 0 40px 0;
 }
-
-
 
 
 /* About */
 .me-picture {
     border-radius: 10px;
-}
-
-@media (max-width: 767px) {
-    .me-picture {
-        padding: 0 100px 0 100px;
-    }
 }
 
 /* Contact */
@@ -141,18 +167,30 @@ header {
     font-size: 40px;
 
     color: rgb(101, 255, 101);
+
+    font-family: "Iceberg", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .header-title {
     padding-bottom: 40px;
     margin-top: -10px;
     margin-bottom: 0px;
     font-size: 25px;
+
+    font-family: "Iceberg", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .navbar-nav .nav-link {
     color: white !important;
     margin-top: 0;
+
     font-size: 1.15em;
+    font-family: "Iceberg", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .navbar-nav .nav-link:hover {
@@ -160,6 +198,16 @@ header {
 }
 
 /* Responsive Design */
+@media (max-width: 767px) {
+    .container {
+        padding: 0 50px 0 50px;
+    }
+
+    .project-screenshot {
+        display: none;
+    }
+}
+
 @media (min-width: 768px) {
     .navbar-nav {
         gap: 2.5rem;

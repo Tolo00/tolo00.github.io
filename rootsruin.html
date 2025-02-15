@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tobias Löwdin - Portfolio</title>
+    <link rel="icon" href="images/icon.png">
+    <!-- External CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand navbar-dark sticky-header">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://tolo00.github.io">Games</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://tolo00.github.io/about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://tolo00.github.io/contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="text-white text-center">
+        <div class="container header-container">
+            
+            <p class="header-name">Tobias Löwdin</p>
+            <p class="header-title">Game Programmer & Student</p>
+        </div>
+    </header>
+    
+    <div class="divider"></div>
+
+    <!-- Game Details -->
+    <section id="games" class="">
+        <div class="container project-detail-container">
+            
+            <div class="row">
+                <div class="col-md-5 order-md-2">
+                    <img src="images/roots-screenshot-1.png" alt="Screenshot 1" class="img-fluid mb-3 project-screenshot">
+                    <img src="images/roots-screenshot-2.png" alt="Screenshot 2" class="img-fluid mb-3 project-screenshot">
+                    <img src="images/roots-screenshot-3.png" alt="Screenshot 3" class="img-fluid mb-3 project-screenshot">
+                    <img src="images/roots-screenshot-4.png" alt="Screenshot 4" class="img-fluid mb-3 project-screenshot">
+                </div>
+                <div class="col-md-7 order-md-1">
+                    <iframe 
+                        class="ratio mx-auto"
+                        height="315" 
+                        src="https://www.youtube.com/embed/wx57sQ2Wuu4" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                    <p class="project-type">Card Game</p>
+                    <h1 class="project-name">Roots & Ruin 
+                        <a href="https://tolo1.itch.io/roots-and-ruin" target="_blank" aria-label="Itch.io"><i class="fab fa-itch-io project-link"></i></a>
+                    </h1>
+                    <p class="project-desc">
+                        This project is a card game developed for a duration of <b>2 months</b> in conjunction with the course Gameproject 1. 
+                        The game was made from scratch using the <a href="https://unity.com/products/unity-engine" target="_blank"><b>Unity Game Engine</b></a> together with a team of <b>6 people</b>. <br> <br>
+
+                        I was responsible for the technical challenges associated with creating a card game. 
+                        This included designing <b>gameplay systems</b> and <b>tools</b> in a sustainable way to ensure development could continue for a longer period if required. <br> <br>
+
+                        As the game contains a lot of data associated with each card. I had to develop tools to make it easy for the designer to create and customize different card behaviour. 
+                        To do this, I used <a href="https://docs.unity3d.com/Manual/class-ScriptableObject.html" target="_blank"><b>Scriptable Objects</b></a> and <a href="https://docs.unity3d.com/560/Documentation/Manual/editor-EditorWindows.html" target="_blank"><b>Custom Editors</b></a> to create a custom interface you could use to customize the cards stats and behaviour. <br> <br>
+
+                        Additionally, I played a key role in <b>organizing</b> the Unity project to ensure it was as user-friendly as possible. 
+                        This involved establishing clear guidelines and teaching colleagues <b>best practices</b> to maintain a clean and efficient project structure.
+
+                    </p>
+                    <h3>Tools Used</h3>
+                    <ul>
+                        <li><a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)" target="_blank"><b>C#</b></a></li>
+                        <li><a href="https://unity.com/products/unity-engine" target="_blank"><b>Unity Game Engine</b></a></li>
+                        <li><a href="https://en.wikipedia.org/wiki/Finite-state_machine" target="_blank"><b>State Machine</b></a></li>
+                        <li><a href="https://docs.unity3d.com/Manual/class-ScriptableObject.html" target="_blank"><b>Scriptable Objects</b></a></li>
+                        <li><a href="https://docs.unity3d.com/560/Documentation/Manual/editor-EditorWindows.html" target="_blank"><b>Custom Editor</b></a></li>
+                        <li><a href="https://github.com/" target="_blank"><b>Github (for version control)</b></a></li>
+                    </ul>
+                </div>
+                
+            </div>
+
+            <div class="project-divider"></div>
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/tobias-l%C3%B6wdin-95258722b/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="https://tolo1.itch.io/" target="_blank" aria-label="Itch.io"><i class="fab fa-itch-io"></i></a>
+          <a href="mailto:tobias.lowdin@outlook.com" target="_blank" aria-label="Mail"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+        <p class="footer-text-1">© 2024 - 2025 Tobias L.</p>
+        <p class="footer-text-2">Made with Bootstrap and GitHub Pages</p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
